@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport:" content="width=device-width">
+    <meta name="description:" content="Daily Status Report">
+    <meta name="keywords:" content="coaching, tution Status Report, home tutor">
+    <meta name="author:" content="Daily">
+    <title>Daily Status Report | Defects</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Daily</span> Status Report</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Test Preparation.html">Test Preparation</a></li>
+            <li><a href="Test Execution.html">Test Execution</a></li>
+            <li class="current"><a href="Defects.html">Defects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+      <section id="Newsletter">
+        <div class="container">
+          <h1>Subscribe to our Newsletter</h1>
+          <form>
+            <input type="Email" placeholder="Enter Email...">
+            <button type="Submit" class="button_1">Subscribe</button>
+
+          </form>
+        </div>
+      </section>
+
+      <head>
+      <script type="text/javascript" src="table_script.js"></script>
+      </head>
+      <body>
+      <div id="wrapper">
+      <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=2>
+
+      <tr>
+        <th>Defect ID</th>
+        <th>Description</th>
+        <th>Assigned To</th>
+        <th>Status</th>
+        <th>Comments</th>
+
+      </tr>
+
+      <tr id="row1">
+      <td id="ID1_row1">ID1</td>
+      <td id="Description_row1">Dwscription 1</td>
+      <td id="Assigned_row1">Dev 1</td>
+      <td id="Status_row1">Completed</td>
+      <td id="Comments_row1">NONE</td>
+
+      <td>
+      <input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+      <input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+      <input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+      </td>
+      </tr>
+
+      <tr id="row2">
+      <td id="Defect_row2">ID2</td>
+      <td id="Description_row2">Description 2</td>
+      <td id="Assigned_row2">Dev 2</td>
+      <td id="Status_row2">Completed</td>
+      <td id="Comments_row2">NONE</td>
+
+      <td>
+      <input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+      <input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+      <input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+      </td>
+      </tr>
+
+      <tr id="row3">
+      <td id="Defect_row3">ID3</td>
+      <td id="Description_row3">Description 3</td>
+      <td id="Assigned_row3">Dev 3</td>
+      <td id="Status_row3">Inprogress</td>
+      <td id="Comments_row3">NONE</td>
+
+      <td>
+      <input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+      <input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+      <input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+      </td>
+      </tr>
+
+      <tr>
+      <td><input type="text" placeholder="Enter Defect ID..." id="new_name"></td>
+      <td><input type="text" placeholder="Enter Description..." id="new_country"></td>
+      <td><input type="text" placeholder="Enter Assigned to..." id="new_age"></td>
+      <td><input type="text" placeholder="Enter Status..." id="new_age"></td>
+      <td><input type="text" placeholder="Enter Comments..." id="new_age"></td>
+
+      <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+
+
+      </tr>
+    <tr>  <td align="center" colspan="6"> <input type="submit" id="btnsub" value="Submit"/></td></tr>
+
+      </table>
+      </div>
+
+      </body>
+      <footer>
+        <p>POOJA GUPTA | Test Lead |</p>
+        <p>Resilience Team, The Mortgages Team</p>
+        <p>Email: poguptan@in.ibm.com</p>
+
+
+      </footer>
+  </body>
+</html>

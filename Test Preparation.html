@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport:" content="width=device-width">
+    <meta name="description:" content="Daily Status Report">
+    <meta name="keywords:" content="coaching, tution Status Report, home tutor">
+    <meta name="author:" content="Daily">
+    <title>Daily Status Report | Test Preparation</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Daily</span> Status Report</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="Test Preparation.html">Test Preparation</a></li>
+            <li><a href="Test Execution.html">Test Execution</a></li>
+            <li><a href="Defects.html">Defects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+      <section id="Newsletter">
+        <div class="container">
+          <h1>Subscribe to our Newsletter</h1>
+          <form>
+            <input type="Email" placeholder="Enter Email...">
+            <button type="Submit" class="button_1">Subscribe</button>
+
+          </form>
+        </div>
+      </section>
+
+
+<head>
+<script type="text/javascript" src="table_script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+<tr>
+  <th>Work Package</th>
+  <th>Status</th>
+  <th>Planned Start Date</th>
+  <th>Planned End Date</th>
+  <th>Comments</th>
+
+</tr>
+
+<tr id="row1">
+<td id="name_row1">WP1</td>
+<td id="country_row1">COMPLETED</td>
+<td id="age_row1">01-01-2021</td>
+<td id="age_row1">02-01-2021</td>
+<td id="age_row1">NONE</td>
+
+<td>
+<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+</td>
+</tr>
+
+<tr id="row2">
+<td id="name_row2">WP2</td>
+<td id="country_row2">INPROGRESS</td>
+<td id="age_row2">01-01-2021</td>
+<td id="age_row2">05-01-2021</td>
+<td id="age_row2">NONE</td>
+
+<td>
+<input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+<input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+</td>
+</tr>
+
+<tr id="row3">
+<td id="name_row3">WP3</td>
+<td id="country_row3">NOT STARTED</td>
+<td id="age_row3">04-01-2021</td>
+<td id="age_row3">10-01-2021</td>
+<td id="age_row3">NONE</td>
+
+<td>
+<input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+<input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+</td>
+</tr>
+
+<tr>
+<td><input type="text" placeholder="Enter Work Package..." id="new_name"></td>
+<td><input type="text" placeholder="Enter Status..." id="new_country"></td>
+<td><input type="text" placeholder="Enter Planned Start Date..." id="new_age"></td>
+<td><input type="text" placeholder="Enter Planned End Date..." id="new_age"></td>
+<td><input type="text" placeholder="Enter Comments..." id="new_age"></td>
+
+<td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+
+</tr>
+<tr>  <td align="center" colspan="6"> <input type="submit" value="Submit"/></td></tr>
+
+</table>
+</div>
+
+</body>
+
+<footer>
+  <p>POOJA GUPTA | Test Lead |</p>
+  <p>Resilience Team, The Mortgages Team</p>
+  <p>Email: poguptan@in.ibm.com</p>
+
+</footer>
+  </body>
+</html>
